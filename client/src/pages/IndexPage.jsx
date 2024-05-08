@@ -13,13 +13,13 @@ const IndexPage = () => {
   }
 
   return (
-    <div className="my-10 flex w-full flex-col">
+    <div className="relative my-10 flex w-full flex-col">
       <Categories />
       <div className=" -mt-8 grid grid-cols-1  justify-items-center px-4 pl-4 md:grid-cols-2 md:gap-0 lg:grid-cols-3 lg:gap-2 xl:grid-cols-4 xl:gap-10">
         {places.length > 0 ? (
           places.map((place) => <PlaceCard place={place} key={place._id} />)
         ) : (
-          <div className="absolute left-1/2 right-1/2 top-40 flex  w-full -translate-x-1/2 transform flex-col p-10  md:w-1/2">
+          <div className="absolute left-[50%] top-[40%] flex w-[70%] -translate-x-[50%] translate-y-[100%] flex-col items-start justify-center sm:top-[70%] sm:w-[40%] ">
             <h1 className="text-3xl font-semibold">Result not found!</h1>
             <p className="text-lg font-semibold">
               Sorry, we couldn&#39;t find the place you&#39;re looking for.
