@@ -9,22 +9,23 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/rahul4019/airbnb-clone.git
+   git clone https://github.com/thefarhanahmad/airbnb-clone.git
+
 
    ```
 
 2. **Install dependencies:**
 
-   Navigate to client directory and install frontend dependencies using yarn
+   Navigate to client directory and install frontend dependencies using npm
 
    ```
-   yarn install
+   npm install
    ```
 
    Similary navigate to api folder and install backend dependencies
 
    ```
-   yarn install
+   npm install
    ```
 
 3. **ENV variables:**
@@ -60,11 +61,11 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 4. **Run project:**
    - Open terminal, navigate to client directory and run below command to start frontend
    ```
-       yarn run dev
+       npm run dev
    ```
    - Open another terminal, navigate to api directory and run this command to start backend server
    ```
-       yarn start
+       npm start or npm run dev( if nodemon setup done )
    ```
 
 ## Features
