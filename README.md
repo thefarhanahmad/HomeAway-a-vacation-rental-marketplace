@@ -75,6 +75,10 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 
   ![Airbnb Logo](client/public/assets/auth.png)
 
+  - **Responsive Design:** The application is designed to be responsive and work seamlessly across different devices.
+
+  ![Airbnb Logo](client/public/assets/hero.png)
+
 - **Search Listings:** Users can search for accommodations.
 
   ![Airbnb Logo](client/public/assets/search.png)
@@ -90,10 +94,6 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 - **Manage Listings:** Hosts can create, edit, and delete their listings.
 
   ![Airbnb Logo](client/public/assets/manage.png)
-
-- **Responsive Design:** The application is designed to be responsive and work seamlessly across different devices.
-
-  ![Airbnb Logo](client/public/assets/hero.png)
 
 ## Technologies Used
 
