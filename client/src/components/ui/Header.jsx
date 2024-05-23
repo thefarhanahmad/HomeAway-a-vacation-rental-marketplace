@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useContext, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { MdOutlineMapsHomeWork } from 'react-icons/md';
 
 import { useAuth } from '../../../hooks';
 import SearchBar from './SearchBar';
@@ -46,14 +47,9 @@ export const Header = () => {
         } w-screen max-w-screen-xl`}
       >
         <a href="/" className="flex items-center gap-1">
-          <img
-            className="h-8 w-8 md:h-10 md:w-10"
-            src="https://cdn-icons-png.flaticon.com/512/2111/2111320.png"
-            alt=""
-          />
-
+          <MdOutlineMapsHomeWork className="h-8 w-8 md:h-10 text-red-500 md:w-10" />
           <span className="hidden text-2xl font-bold text-red-500 md:block">
-            airbnb
+            HomeAway
           </span>
         </a>
 

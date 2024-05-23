@@ -73,7 +73,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col gap-1">
-            <strong className="font-medium">Airbnb</strong>
+            <strong className="font-medium">HomeAway</strong>
             <p>
               <span className="cursor-pointer font-normal text-gray-700 decoration-1 underline-offset-1 hover:underline">
                 Newsroom
@@ -154,7 +154,7 @@ const Footer = () => {
           </div>
 
           <div className="flex w-full flex-col gap-2 px-1 font-normal text-gray-700 md:w-auto md:flex-row md:items-center md:gap-8">
-            <p className="text-sm">&copy; 2023 Airbnb, Inc.</p>
+            <p className="text-sm">&copy; 2024 HomeAway, Inc.</p>
             <div>
               <ul className=" flex gap-6 text-sm text-gray-700">
                 <li className="cursor-pointer text-gray-700 decoration-1 underline-offset-1 hover:underline md:list-disc">
