@@ -1,4 +1,4 @@
-# Airbnb Clone
+# HomeAway ( a vacation rental marketplace ) : A Full stack Web Application
 
 ## Overview
 
