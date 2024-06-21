@@ -7,8 +7,8 @@ const Categories = () => {
         <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-8">
           <h1 className="text-2xl font-bold tracking-tight ">Explore Places</h1>
         </div>
-        <div className="flex w-full items-center justify-between">
-          <div className="grid w-[22%] gap-2 transition-all duration-200 hover:scale-105">
+        <div className="flex w-full items-center justify-between ">
+          <div className="grid w-fit gap-2 transition-all duration-200 hover:scale-105 sm:w-[22%]">
             <div className="flex items-center justify-center rounded-lg bg-gray-100 p-4 dark:bg-gray-800">
               <HomeIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
             </div>
@@ -16,7 +16,7 @@ const Categories = () => {
               Homes
             </h3>
           </div>
-          <div className="grid w-[22%] gap-2 transition-all duration-200 hover:scale-105">
+          <div className="grid w-fit gap-2 transition-all duration-200 hover:scale-105 sm:w-[22%]">
             <div className="flex items-center justify-center rounded-lg bg-gray-100 p-4 dark:bg-gray-800">
               <BuildingIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
             </div>
@@ -24,7 +24,7 @@ const Categories = () => {
               Apartments
             </h3>
           </div>
-          <div className="grid w-[22%] gap-2 transition-all duration-200 hover:scale-105">
+          <div className="grid w-fit gap-2 transition-all duration-200 hover:scale-105 sm:w-[22%]">
             <div className="flex items-center justify-center rounded-lg bg-gray-100 p-4 dark:bg-gray-800">
               <HotelIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
             </div>
@@ -32,7 +32,7 @@ const Categories = () => {
               Hotels
             </h3>
           </div>
-          <div className="grid w-[22%] gap-2 transition-all duration-200 hover:scale-105">
+          <div className="grid w-fit gap-2 transition-all duration-200 hover:scale-105 sm:w-[22%]">
             <div className="flex items-center justify-center rounded-lg bg-gray-100 p-4 dark:bg-gray-800">
               <MenuIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
             </div>
